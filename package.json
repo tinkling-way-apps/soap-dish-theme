@@ -1,0 +1,93 @@
+{
+  "name": "soap-dish",
+  "displayName": "Soap Dish",
+  "description": "Nine pastel light themes cut from one bar: Purple, Red, Pink, Yellow, Green, Blue, Blue Gray, Coffee Cream, and Cream.",
+  "version": "0.0.1",
+  "publisher": "tinklingway",
+  "license": "GPL-3.0-only",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tinkling-way-apps/soap-dish-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tinkling-way-apps/soap-dish-theme/issues"
+  },
+  "homepage": "https://github.com/tinkling-way-apps/soap-dish-theme#readme",
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#dad9eb",
+    "theme": "light"
+  },
+  "engines": {
+    "vscode": "^1.140.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "color-theme",
+    "light",
+    "pastel",
+    "soap",
+    "purple",
+    "red",
+    "pink",
+    "yellow",
+    "green",
+    "blue",
+    "blue-gray",
+    "coffee",
+    "cream",
+    "beige"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Soap Dish: Purple",
+        "uiTheme": "vs",
+        "path": "./themes/purple-color-theme.json"
+      },
+      {
+        "label": "Soap Dish: Red",
+        "uiTheme": "vs",
+        "path": "./themes/red-color-theme.json"
+      },
+      {
+        "label": "Soap Dish: Pink",
+        "uiTheme": "vs",
+        "path": "./themes/pink-color-theme.json"
+      },
+      {
+        "label": "Soap Dish: Yellow",
+        "uiTheme": "vs",
+        "path": "./themes/yellow-color-theme.json"
+      },
+      {
+        "label": "Soap Dish: Green",
+        "uiTheme": "vs",
+        "path": "./themes/green-color-theme.json"
+      },
+      {
+        "label": "Soap Dish: Blue",
+        "uiTheme": "vs",
+        "path": "./themes/blue-color-theme.json"
+      },
+      {
+        "label": "Soap Dish: Blue Gray",
+        "uiTheme": "vs",
+        "path": "./themes/blue-gray-color-theme.json"
+      },
+      {
+        "label": "Soap Dish: Coffee Cream",
+        "uiTheme": "vs",
+        "path": "./themes/coffee-cream-color-theme.json"
+      },
+      {
+        "label": "Soap Dish: Cream",
+        "uiTheme": "vs",
+        "path": "./themes/cream-color-theme.json"
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+.vscode/**
+.vscode-test/**
+.gitignore
+scripts/**
+dist/**
+DEVELOPMENT.md
+**/.DS_Store
