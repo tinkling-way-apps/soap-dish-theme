@@ -17,10 +17,16 @@ python3 scripts/build-themes.py
 
 The icon is drawn by `scripts/build-icon.py` with the Python standard library only. Change the composition there and rerun it to refresh `images/icon.png`.
 
+The preview images are drawn by `scripts/build-preview.py`, also standard library only. It reads every theme registered in `package.json` and paints a schematic VS Code window in that theme's colors (no text; words are bars) to `images/preview-<id>.png`, then tiles all of them at half size into `images/preview.png`. Rerun it after changing a theme. The previews are listed in `.vscodeignore`, so they are not packaged; the README links to them on GitHub.
+
+```bash
+python3 scripts/build-preview.py
+```
+
 To try a change, open this folder in VS Code and press `F5`; edits to `themes/*.json` apply live in the Extension Development Host. `Developer: Inspect Editor Tokens and Scopes` shows which scope and color a token gets. To package:
 
 ```bash
-npx --yes @vscode/vsce package --out dist/soap-dish-0.0.1.vsix
+npx --yes @vscode/vsce package --out dist/soap-dish-0.0.2.vsix
 ```
 
 Theme files are JSONC: comments and trailing commas are allowed, and a long list of unset keys is left commented out at the end of each file. Later rules in `tokenColors` win over earlier ones.
@@ -40,10 +46,16 @@ python3 scripts/build-themes.py
 
 アイコンは `scripts/build-icon.py` が Python の標準ライブラリだけで描く。構図を変えたら再実行して `images/icon.png` を作り直す。
 
+プレビュー画像は `scripts/build-preview.py` が描く。こちらも標準ライブラリだけ。`package.json` に登録された全テーマを読み、そのテーマの色で VS Code の窓を模式的に(文字は描かず、単語は帯で)`images/preview-<id>.png` に塗り、全部を半分の大きさで並べた `images/preview.png` を作る。テーマを変えたら再実行する。プレビューは `.vscodeignore` に入れてあるのでパッケージには含まれず、README から GitHub 上の画像を参照する。
+
+```bash
+python3 scripts/build-preview.py
+```
+
 試すときは、このフォルダを VS Code で開いて `F5`。拡張機能開発ホストで `themes/*.json` の編集が即時反映される。`Developer: Inspect Editor Tokens and Scopes` でトークンのスコープと適用色を見られる。パッケージするには:
 
 ```bash
-npx --yes @vscode/vsce package --out dist/soap-dish-0.0.1.vsix
+npx --yes @vscode/vsce package --out dist/soap-dish-0.0.2.vsix
 ```
 
 テーマファイルは JSONC で、コメントと末尾カンマが使える。各ファイルの末尾には未設定のキーがコメントアウトのまま並んでいる。`tokenColors` は後に書いたルールが勝つ。

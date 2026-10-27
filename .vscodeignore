@@ -4,6 +4,7 @@
 .gitignore
 CLAUDE.local.md
 scripts/**
+images/preview*.png
 dist/**
 DEVELOPMENT.md
 **/.DS_Store

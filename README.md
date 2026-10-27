@@ -11,6 +11,10 @@
 Nine pastel light themes for VS Code, cut from one bar: **Purple, Red, Pink, Yellow, Green, Blue, Blue Gray, Coffee Cream, and Cream**.
 Soft tinted surfaces, a deeper accent in the same hue, and warm amber keywords. All nine share the same skeleton, so switching between them changes the mood without moving anything.
 
+They were made for working with several VS Code windows open at once. Give each project its own soap, and the tint alone tells you which window you are looking at. Machines are fast enough now to keep many windows open without a second thought, and this is one way to enjoy that.
+
+![Preview: nine schematic VS Code windows, one in each Soap Dish color](images/preview.png)
+
 ### Variants
 
 | Theme | Hue | Editor background | Accent |
@@ -27,6 +31,8 @@ Soft tinted surfaces, a deeper accent in the same hue, and warm amber keywords. 
 
 Red is a little more vivid so it reads clearly next to Pink. Green and Coffee Cream are toned down. Cream is whipped cream rather than custard: a warm off-white gray that stays easy on the eyes.
 
+Individual previews: [Purple](images/preview-purple.png) · [Red](images/preview-red.png) · [Pink](images/preview-pink.png) · [Yellow](images/preview-yellow.png) · [Green](images/preview-green.png) · [Blue](images/preview-blue.png) · [Blue Gray](images/preview-blue-gray.png) · [Coffee Cream](images/preview-coffee-cream.png) · [Cream](images/preview-cream.png). They are schematic drawings in the themes' own colors, not screenshots.
+
 ### Install
 
 From VS Code, open the Extensions view (`Cmd+Shift+X` / `Ctrl+Shift+X`), search for **Soap Dish**, and install. Or run this from the Command Palette:
@@ -37,7 +43,7 @@ ext install tinklingway.soap-dish
 
 Then pick a theme with **Preferences: Color Theme** (`Cmd+K Cmd+T` / `Ctrl+K Ctrl+T`) and choose any **Soap Dish: …** entry.
 
-To install from a `.vsix` file instead, use **Extensions: Install from VSIX…** in the Command Palette, or `code --install-extension soap-dish-0.0.1.vsix`.
+To install from a `.vsix` file instead, use **Extensions: Install from VSIX…** in the Command Palette, or `code --install-extension soap-dish-0.0.2.vsix`.
 
 ### How the colors work
 
@@ -60,6 +66,10 @@ Copyright (C) 2026 TinklingWay. Bearded Theme is Copyright (C) BeardedBear.
 VS Code のライトカラーテーマ 9 色セット。**Purple・Red・Pink・Yellow・Green・Blue・Blue Gray・Coffee Cream・Cream**。
 薄く色づいた地に同系の濃いアクセント、琥珀のキーワード。9 色とも骨格が同じなので、切り替えても配置はそのままで雰囲気だけ変わる。
 
+VS Code の窓をいくつも同時に開いて作業するために作った。プロジェクトごとに別の石けんを当てておけば、地の色を見るだけでどの窓で何を開いているか分かる。PC の性能が上がって窓を気兼ねなく増やせるようになった、そのありがたさを活かすためのもの。
+
+![プレビュー: Soap Dish の 9 色でそれぞれ描いた VS Code の窓の模式図](images/preview.png)
+
 ### バリエーション
 
 | テーマ名 | 色相 | 地(エディタ) | アクセント |
@@ -76,6 +86,8 @@ VS Code のライトカラーテーマ 9 色セット。**Purple・Red・Pink・
 
 Red は隣の Pink とはっきり区別がつくよう少し鮮やかに、Green と Coffee Cream は色を落として柔らかくしている。Cream はカスタードではなく生クリーム。目に優しい暖かみのある灰白。
 
+色ごとのプレビュー: [Purple](images/preview-purple.png) · [Red](images/preview-red.png) · [Pink](images/preview-pink.png) · [Yellow](images/preview-yellow.png) · [Green](images/preview-green.png) · [Blue](images/preview-blue.png) · [Blue Gray](images/preview-blue-gray.png) · [Coffee Cream](images/preview-coffee-cream.png) · [Cream](images/preview-cream.png)。テーマ自身の色で描いた模式図で、スクリーンショットではない。
+
 ### インストール
 
 VS Code の拡張機能ビュー(`Cmd+Shift+X` / `Ctrl+Shift+X`)で **Soap Dish** を検索してインストールする。コマンドパレットから次を実行してもよい。
@@ -86,7 +98,7 @@ ext install tinklingway.soap-dish
 
 そのあと **基本設定: 配色テーマ**(`Cmd+K Cmd+T` / `Ctrl+K Ctrl+T`)で **Soap Dish: 〜** のどれかを選ぶ。
 
-`.vsix` ファイルから入れる場合は、コマンドパレットの **拡張機能: VSIX からのインストール…** か、`code --install-extension soap-dish-0.0.1.vsix` を使う。
+`.vsix` ファイルから入れる場合は、コマンドパレットの **拡張機能: VSIX からのインストール…** か、`code --install-extension soap-dish-0.0.2.vsix` を使う。
 
 ### 配色の考え方
 
